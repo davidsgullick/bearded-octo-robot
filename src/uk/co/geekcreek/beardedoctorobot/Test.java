@@ -42,7 +42,7 @@ public class Test extends BasicGame {
 				//System.setProperty("org.lwjgl.librarypath", new File("./lib/native").getAbsolutePath());
 				
 				AppGameContainer appgc;
-				appgc = new AppGameContainer(new Test("Simple Super Slick Game LOLOLOL"));
+				appgc = new AppGameContainer(new Test("Dave wrote this"));
 				appgc.setDisplayMode(640, 480, false);
 				appgc.setTargetFrameRate(60);
 				appgc.setVSync(true);
